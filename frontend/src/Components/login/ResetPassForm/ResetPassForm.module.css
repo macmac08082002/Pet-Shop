@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formressetpass {
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    text-transform: capitalize;
+
+
+    width: 30rem;
+    height: 25rem;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formressetpass h1 {
+    margin-top: 4rem;
+    color: #FC5B31;
+}
+
+.inputresetpass {
+    margin-top: 3rem;
+}
+
+.labletitle{
+    margin: 1.2rem;
+}
+.inputresetpass input{
+    height: 1.4rem;
+    width: 10rem;
+}
+.buttoneven {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5rem;
+    margin-top: 3rem;
+}
+.buttonreset{
+    height: 2rem;
+    width: 7rem;
+    margin-right: 0.9rem;
+    background-color: #FFBD6D;
+}
+.buttonreset:hover{
+    background-color: #FC5B31; /* Màu nền mới khi di chuột vào nút "Đăng nhập" */
+    color: #fff;
+}
+.buttonlogin{
+    height: 2rem;
+    width: 7rem;
+    margin-left: 1.5rem;
+    background-color: #FFBD6D;
+}
+.buttonlogin:hover{
+    background-color: #FC5B31; /* Màu nền mới khi di chuột vào nút "Đăng nhập" */
+    color: #fff;
+}

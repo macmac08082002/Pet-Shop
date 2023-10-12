@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formLogin {
+    text-align: center;
+    width: 30rem;
+    height: 20rem;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid #ccc; /* Tạo viền kín quanh biểu mẫu */
+    border-radius: 5px; /* Làm viền tròn */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tạo bóng đổ cho biểu mẫu */
+  }
+  .formLogin h1 {
+    color: #FC5B31;
+  }
+  .inputUser{
+    margin-top: 2rem;
+    justify-content: space-between;
+
+  }
+
+  .inputUser label {
+    margin-right: 0.3rem;
+
+  }
+
+  .inputUser input {
+    height: 1.4rem;
+  }
+
+  .inputPass {
+    margin-top: 1.2rem;
+  }
+
+  .inputPass label {
+    margin-right: 2.3rem;
+  }
+  .inputPass input {
+    height: 1.4rem;
+  }
+
+  .button {
+    margin-top: 3rem;
+    transition: background-color 0.3s;
+
+  }
+
+.login {
+    margin-right: 5rem;
+    height: 2rem;
+    width: 7rem;
+    background-color: #FFBD6D;
+    transition: background-color 0.3s;
+}
+.login:hover {
+    background-color: #FC5B31; /* Màu nền mới khi di chuột vào nút "Đăng nhập" */
+    color: #fff; /* Màu chữ mới khi di chuột vào nút "Đăng nhập" */
+  }
+.signup {
+    margin-right: 0.5rem;
+    height: 2rem;
+    width: 7rem;
+    background-color: #FFBD6D;
+    transition: background-color 0.3s;
+}
+.signup:hover {
+    background-color: #FC5B31; /* Màu nền mới khi di chuột vào nút "Đăng nhập" */
+    color: #fff; /* Màu chữ mới khi di chuột vào nút "Đăng nhập" */
+  }
+
+
+.buttonresetPass {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px; /* Khoảng cách giữa nút và biểu mẫu */
+    color: #fff; /* Màu chữ trắng */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonresetPass {
+    border: none;
+    background-color: transparent; /* Đặt màu nền của nút là trong suốt */
+    color: blue;
+    text-decoration: underline;
+}
